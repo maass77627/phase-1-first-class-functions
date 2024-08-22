@@ -2,7 +2,7 @@ function receivesAFunction(cb) {
     cb()
 }
 
-function retrunsNamedFunction() {
+function returnsANamedFunction() {
     return function named() {
 
     }
