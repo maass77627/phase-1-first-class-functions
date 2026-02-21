@@ -1,26 +1,38 @@
-function receivesAFunction(callback) {
+// function receivesAFunction(callback) {
 
-    callback()
+//     callback()
 
-};
+// };
+
+// function returnsANamedFunction() {
+//     return function named() {
+
+//     }
+
+// }
+
+// function returnsAnAnonymousFunction() {
+//     return function () {
+
+//     }
+// }
+
+
+
+
+function receivesAFunction(cb) {
+    cb()
+
+}
 
 function returnsANamedFunction() {
-    return function named() {
-
-    }
+    return function named() {}
 
 }
 
 function returnsAnAnonymousFunction() {
-    return function () {
-
-    }
+    return function () {}
 }
-
-
-
-
-
 
 
 
